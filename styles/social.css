@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+/* cuerpo de la pagina */
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+
+/* barra de navegacion  */
+
+ul {
+  list-style-type: none;
+  margin:0px;
+  padding: 10px;
+  overflow: auto;
+  background-color: white;
+  font-size: 1.1rem;
+}
+
+
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+ 
+ }
+
+/* hover */
+li a:hover {
+  background-color: #F7F5EB;
+}
+
+
+/* cuerpo medio */
+.grid{
+  display: grid;
+  grid-template-rows: auto 60vh;
+}
+
+
+.box {
+
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+.texto {
+  background-color: #F5EAEA;
+  margin: 0px;
+  font-size: 2rem;
+  padding: 30px;
+  text-align: center;
+}
+
+.pendiente {
+  background-color: #F5EAEA;
+  font-size: 1rem;
+  padding: 30px;
+  margin: 0px;
+  text-align: center;
+
+}
+
+.enlace{
+  font-size: .8rem;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.buttons {
+  background-color: #F5EAEA;
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  padding: 40px;
+
+}
+
+.instagram{
+    border-style: none;
+    background-color: transparent;
+}
+
+.linkedin{
+  border-style: none;
+  background-color: transparent;
+}
+.youtube{
+  border-style: none;
+  background-color: transparent;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  
+
+}
