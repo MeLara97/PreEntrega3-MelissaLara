@@ -41,6 +41,15 @@ li a:hover {
 }
 
 
+/* edicion de fotos en carousel */
+div .carousel-inner{
+  height:auto;
+
+}
+
+
+
+
 
 .footer {
   display: flexbox;
