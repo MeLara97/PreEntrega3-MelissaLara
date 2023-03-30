@@ -41,7 +41,7 @@ li a:hover {
 
 
 /* cuerpo medio */
-.grid{
+.principal{
   display: grid;
   grid-template-rows: auto 60vh;
 }

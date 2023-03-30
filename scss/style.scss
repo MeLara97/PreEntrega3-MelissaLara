@@ -138,6 +138,58 @@ body {
     }
 }
 
+// inicio pagina my work
+.principal{
+    display: grid;
+    grid-template-rows: auto 60vh;
+
+    .texto {
+        background-color: #F5EAEA;
+        margin: 0px;
+        font-size: 2rem;
+        padding: 30px;
+        text-align: center;
+      }
+      .pendiente {
+        background-color: #F5EAEA;
+        font-size: 1rem;
+        padding: 30px;
+        margin: 0px;
+        text-align: center;
+      
+      }
+      
+      .enlace{
+        font-size: .8rem;
+        text-decoration: none;
+        color: blueviolet;
+      }
+
+
+  }
+
+  .buttons {
+    background-color: #F5EAEA;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    padding: 40px;
+  
+    .instagram{
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    .linkedin{
+      border-style: none;
+      background-color: transparent;
+    }
+    .youtube{
+      border-style: none;
+      background-color: transparent;
+    }
+    
+
+  }
 
 
 @import "footer";

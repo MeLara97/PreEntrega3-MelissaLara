@@ -3,20 +3,20 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif; }
 
-.grid-container ul {
+.grid-container .navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: auto; }
-  .grid-container ul li {
+  .grid-container .navbar ul li {
     float: right; }
-    .grid-container ul li a {
+    .grid-container .navbar ul li a {
       display: block;
       color: black;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 1.1rem; }
-    .grid-container ul li a:hover {
+    .grid-container .navbar ul li a:hover {
       background-color: #F7F5EB; }
 
 .grid-container {
@@ -96,6 +96,41 @@ body {
     margin: 1px;
     display: flex;
     justify-content: center; }
+
+.principal {
+  display: grid;
+  grid-template-rows: auto 60vh; }
+  .principal .texto {
+    background-color: #F5EAEA;
+    margin: 0px;
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center; }
+  .principal .pendiente {
+    background-color: #F5EAEA;
+    font-size: 1rem;
+    padding: 30px;
+    margin: 0px;
+    text-align: center; }
+  .principal .enlace {
+    font-size: .8rem;
+    text-decoration: none;
+    color: blueviolet; }
+
+.buttons {
+  background-color: #F5EAEA;
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  padding: 40px; }
+  .buttons .instagram {
+    border-style: none;
+    background-color: transparent; }
+  .buttons .linkedin {
+    border-style: none;
+    background-color: transparent; }
+  .buttons .youtube {
+    border-style: none;
+    background-color: transparent; }
 
 .footer {
   display: flex;
