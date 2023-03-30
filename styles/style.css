@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif; }
+
 .grid-container ul {
   list-style-type: none;
   margin: 0;
@@ -14,6 +18,48 @@
       font-size: 1.1rem; }
     .grid-container ul li a:hover {
       background-color: #F7F5EB; }
+
+.grid-container {
+  display: grid; }
+  .grid-container .box {
+    border: 1px solid #F5EAEA;
+    padding: 0px; }
+  .grid-container .names {
+    background-color: #F5EAEA;
+    display: flex;
+    justify-content: center; }
+    .grid-container .names .nombre {
+      font-size: 4rem;
+      font-weight: bold;
+      color: black;
+      margin: 1px; }
+    .grid-container .names .profesion {
+      font-size: 1rem;
+      color: #484848;
+      margin: 10px; }
+  .grid-container .intro {
+    background-color: #F5EAEA;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 30px; }
+    .grid-container .intro .styled {
+      border-style: none;
+      background-color: transparent; }
+  .grid-container .textbegin .big {
+    font-size: 6rem;
+    margin: 1px;
+    padding-top: 50px; }
+  .grid-container .textbegin .small {
+    font-size: 3rem;
+    margin: 1px; }
+  .grid-container .main {
+    background-color: #F5EAEA; }
+    .grid-container .main .texto {
+      font-size: 1.5rem;
+      padding: 20%;
+      padding-top: 10%;
+      font-weight: lighter;
+      text-align: center; }
 
 .footer {
   display: flex;

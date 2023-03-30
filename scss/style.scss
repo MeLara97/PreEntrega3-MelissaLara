@@ -1,6 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import "variables";
+
+
+body {
+    margin: 0;
+    font-family: $mainfont, sans-serif;
+}
 
 @import "navbar";
+
+
+
+
+.grid-container {
+    display: grid;
+
+    .box {
+        border: 1px solid $mainbackground;
+        padding: 0px;
+    }
+
+    .names {
+        background-color: $mainbackground;
+        display: flex;
+        justify-content: center;
+
+        .nombre {
+            font-size: 4rem;
+            font-weight: bold;
+            color: black;
+            margin: 1px;
+        }
+
+        .profesion {
+            font-size: 1rem;
+            color: rgb(72, 72, 72);
+            margin: 10px;
+        }
+    }
+
+    .intro {
+        background-color: $mainbackground;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        padding-top: 30px;
+
+        .styled {
+            border-style: none;
+            background-color: transparent;
+        }
+    }
+
+
+    .textbegin {
+
+        .big {
+            font-size: 6rem;
+            margin: 1px;
+            padding-top: 50px;
+        }
+
+        .small {
+            font-size: 3rem;
+            margin: 1px;
+        }
+    }
+
+
+    .main {
+        background-color: $mainbackground;
+
+
+        .texto {
+            font-size: 1.5rem;
+            padding: 20%;
+            padding-top: 10%;
+            font-weight: lighter;
+            text-align: center;
+        }
+
+    }
+}
 
 
 @import "footer";
