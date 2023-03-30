@@ -15,7 +15,6 @@ body {
         border: 1px solid $mainbackground;
         padding: 0px;
     }
-
     .names {
         background-color: $mainbackground;
         display: flex;
@@ -46,8 +45,6 @@ body {
             background-color: transparent;
         }
     }
-
-
     .textbegin {
 
         .big {
@@ -61,12 +58,8 @@ body {
             margin: 1px;
         }
     }
-
-
     .main {
         background-color: $mainbackground;
-
-
         .texto {
             font-size: 1.5rem;
             padding: 20%;
@@ -77,6 +70,4 @@ body {
 
     }
 }
-
-
 @import "footer";
