@@ -60,6 +60,42 @@ body {
       padding-top: 10%;
       font-weight: lighter;
       text-align: center; }
+  .grid-container .home {
+    background-color: #F5EAEA;
+    height: 70vh; }
+    .grid-container .home .texto {
+      font-size: 1rem;
+      color: black;
+      margin: 1px;
+      text-align: justify;
+      padding: 40px; }
+    .grid-container .home .image {
+      margin: 1px;
+      display: flex;
+      justify-content: center; }
+
+.stunt {
+  background-color: #F5EAEA; }
+  .stunt .pktext {
+    font-size: 1rem;
+    color: black;
+    padding: 40px; }
+  .stunt .parkour {
+    margin: 1px;
+    display: flex;
+    justify-content: center; }
+
+.actuacion {
+  background-color: #F5EAEA; }
+  .actuacion .lorem {
+    color: black;
+    font-size: 1rem;
+    padding: 5%;
+    text-align: justify; }
+  .actuacion .model {
+    margin: 1px;
+    display: flex;
+    justify-content: center; }
 
 .footer {
   display: flex;

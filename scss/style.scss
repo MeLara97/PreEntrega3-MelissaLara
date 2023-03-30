@@ -1,12 +1,16 @@
+// imports de variables
 @import "variables";
 
-
+// cuerpo para paginas 
 body {
     margin: 0;
     font-family: $mainfont, sans-serif;
 }
 
+// barra de navegacion
 @import "navbar";
+
+// pagina principal html
 
 .grid-container {
     display: grid;
@@ -15,6 +19,7 @@ body {
         border: 1px solid $mainbackground;
         padding: 0px;
     }
+
     .names {
         background-color: $mainbackground;
         display: flex;
@@ -45,6 +50,7 @@ body {
             background-color: transparent;
         }
     }
+
     .textbegin {
 
         .big {
@@ -58,8 +64,10 @@ body {
             margin: 1px;
         }
     }
+
     .main {
         background-color: $mainbackground;
+
         .texto {
             font-size: 1.5rem;
             padding: 20%;
@@ -69,5 +77,67 @@ body {
         }
 
     }
+
+    // inicio de pagina my story html
+
+    .home {
+        background-color: #F5EAEA;
+        height: 70vh;
+
+        .texto {
+            font-size: 1rem;
+            color: black;
+            margin: 1px;
+            text-align: justify;
+            padding: 40px;
+        }
+
+        .image {
+            margin: 1px;
+            display: flex;
+            justify-content: center;
+        }
+
+    }
 }
+
+
+.stunt {
+    background-color: #F5EAEA;
+
+
+    .pktext {
+        font-size: 1rem;
+        color: black;
+        padding: 40px;
+    }
+
+    .parkour {
+        margin: 1px;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.actuacion {
+    background-color: #F5EAEA;
+
+    .lorem {
+        color: black;
+        font-size: 1rem;
+        padding: 5%;
+        text-align: justify;
+
+    }
+    .model {
+        margin: 1px;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+
 @import "footer";
