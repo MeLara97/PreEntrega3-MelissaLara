@@ -64,7 +64,8 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 1rem;
-  font-style: italic; }
+  align-items: center; }
+  .footer p {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic; }
