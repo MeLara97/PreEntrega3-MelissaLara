@@ -10,6 +10,11 @@ body {
 // barra de navegacion
 @import "navbar";
 
+// navbar bootsrap my work, social y contact.html
+.navbar-nav .nav-item:hover {
+    background-color: #F7F5EB;
+
+}
 // pagina principal html
 
 .grid-container {
@@ -126,14 +131,16 @@ body {
         text-align: justify;
 
     }
+
     .model {
         margin: 1px;
         @include flex-center;
     }
 }
 
-// inicio pagina my work
-.principal{
+
+// inicio pagina social html
+.principal {
     display: grid;
     grid-template-rows: auto 60vh;
 
@@ -143,44 +150,46 @@ body {
         font-size: 2rem;
         padding: 30px;
         text-align: center;
-      }
-      .pendiente {
+    }
+
+    .pendiente {
         background-color: $mainbackground;
         font-size: 1rem;
         padding: 30px;
         margin: 0px;
         text-align: center;
-      
-      }
-      
-      .enlace{
+
+    }
+
+    .enlace {
         font-size: .8rem;
         text-decoration: none;
         color: blueviolet;
-      }
+    }
 
 
-  }
+}
 
-  .buttons {
+.buttons {
     background-color: $mainbackground;
     display: grid;
     grid-template-columns: 35% 35% 35%;
     padding: 40px;
-  
-    .instagram{
-        @include button-transp;
-    }
-    
-    .linkedin{
-        @include button-transp;
-    }
-    .youtube{
-        @include button-transp;
-    }
-    
 
-  }
+    .instagram {
+        @include button-transp;
+    }
+
+    .linkedin {
+        @include button-transp;
+    }
+
+    .youtube {
+        @include button-transp;
+    }
+
+
+}
 
 
 @import "footer";
