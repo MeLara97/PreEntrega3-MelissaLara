@@ -47,35 +47,49 @@ body {
     padding-top: 30px; }
     .grid-container .intro .styled {
       border-style: none;
-      background-color: transparent; }
+      background-color: transparent;
+      transition: all .8s; }
+    .grid-container .intro .styled:hover {
+      scale: 1.2; }
   .grid-container .textbegin .big {
     font-size: 6rem;
     margin: 1px;
-    padding-top: 50px; }
-  .grid-container .textbegin .small {
+    padding-top: 50px;
+    transition: all .8s; }
+  .grid-container .textbegin .big:hover {
+    scale: 1.2; }
+  .grid-container .small {
     font-size: 3rem;
-    margin: 1px; }
-  .grid-container .main {
-    background-color: #F5EAEA; }
-    .grid-container .main .texto {
-      font-size: 1.5rem;
-      padding: 20%;
-      padding-top: 10%;
-      font-weight: lighter;
-      text-align: center; }
-  .grid-container .home {
-    background-color: #F5EAEA;
-    height: 70vh; }
-    .grid-container .home .texto {
-      font-size: 1rem;
-      color: black;
-      margin: 1px;
-      text-align: justify;
-      padding: 40px; }
-    .grid-container .home .image {
-      margin: 1px;
-      display: flex;
-      justify-content: center; }
+    margin: 1px;
+    transition: all .8s; }
+  .grid-container .small:hover {
+    scale: 1.2; }
+
+.main {
+  background-color: #F5EAEA; }
+  .main .texto {
+    font-size: 1.5rem;
+    padding: 20%;
+    padding-top: 10%;
+    font-weight: lighter;
+    text-align: center; }
+
+.home {
+  background-color: #F5EAEA;
+  height: 70vh; }
+  .home .texto {
+    font-size: 1rem;
+    color: black;
+    margin: 1px;
+    text-align: justify;
+    padding: 40px; }
+  .home .image {
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.8s; }
+  .home .image:hover {
+    scale: 2; }
 
 .stunt {
   background-color: #F5EAEA; }
@@ -86,7 +100,10 @@ body {
   .stunt .parkour {
     margin: 1px;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    transition: all .8s; }
+  .stunt .parkour:hover {
+    scale: 1.5; }
 
 .actuacion {
   background-color: #F5EAEA; }
@@ -98,7 +115,26 @@ body {
   .actuacion .model {
     margin: 1px;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    transition: all .5s; }
+  .actuacion .model:hover {
+    scale: 1.2; }
+
+button {
+  transform: scale(1);
+  transform-origin: center center;
+  transition: all 0.5s ease-out;
+  opacity: 0.7; }
+
+button:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  margin: 0 5px;
+  transition: all 0.5s ease-in 1s;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 1s; }
 
 .principal {
   display: grid;
