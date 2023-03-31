@@ -81,7 +81,7 @@ body {
     // inicio de pagina my story html
 
     .home {
-        background-color: #F5EAEA;
+        background-color: $mainbackground;
         height: 70vh;
 
         .texto {
@@ -102,7 +102,7 @@ body {
 
 
 .stunt {
-    background-color: #F5EAEA;
+    background-color: $mainbackground;
 
 
     .pktext {
@@ -119,7 +119,7 @@ body {
 }
 
 .actuacion {
-    background-color: #F5EAEA;
+    background-color: $mainbackground;
 
     .lorem {
         color: black;
@@ -140,14 +140,14 @@ body {
     grid-template-rows: auto 60vh;
 
     .texto {
-        background-color: #F5EAEA;
+        background-color: $mainbackground;
         margin: 0px;
         font-size: 2rem;
         padding: 30px;
         text-align: center;
       }
       .pendiente {
-        background-color: #F5EAEA;
+        background-color: $mainbackground;
         font-size: 1rem;
         padding: 30px;
         margin: 0px;
@@ -165,7 +165,7 @@ body {
   }
 
   .buttons {
-    background-color: #F5EAEA;
+    background-color: $mainbackground;
     display: grid;
     grid-template-columns: 35% 35% 35%;
     padding: 40px;
