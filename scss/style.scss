@@ -206,17 +206,25 @@ body {
 
     .instagram {
         @include button-transp;
+        transition: all 1s;
     }
-
+    & .instagram:hover {
+        scale: (1.2);
+    }
     .linkedin {
         @include button-transp;
+        transition: all 1s;
     }
-
+    & .linkedin:hover {
+        scale: (1.2);
+    }
     .youtube {
         @include button-transp;
+        transition: all 1s;
     }
-
-
+    & .youtube:hover {
+        scale: (1.3);
+    }
 }
 
 
