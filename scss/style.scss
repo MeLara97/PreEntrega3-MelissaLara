@@ -165,25 +165,7 @@ body {
     }
 }
 
-
-button {
-    transform: scale(1);
-    transform-origin: center center;
-    transition: all 0.5s ease-out;
-    opacity: 0.7;
-  }
-  
-  button:hover {
-    transform: scale(1.1);
-    opacity: 1;
-    margin: 0 5px;
-    transition: all 0.5s ease-in 1s;
-    transition-property: opacity;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 1s;
-  }
-
+// inicio pagina my work
 
 // inicio pagina social html
 .principal {
