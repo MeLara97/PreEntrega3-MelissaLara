@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
-$mainfont: "Montserrat" ;
+$mainfont: "Montserrat";
 
 $mainbackground: #F5EAEA;
 
 
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin button-transp {
+    border-style: none;
+    background-color: transparent;
+}

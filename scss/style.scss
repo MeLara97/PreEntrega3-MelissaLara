@@ -94,8 +94,7 @@ body {
 
         .image {
             margin: 1px;
-            display: flex;
-            justify-content: center;
+            @include flex-center;
         }
 
     }
@@ -114,8 +113,7 @@ body {
 
     .parkour {
         margin: 1px;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
 
     }
 }
@@ -132,9 +130,7 @@ body {
     }
     .model {
         margin: 1px;
-        display: flex;
-        justify-content: center;
-
+        @include flex-center;
     }
 }
 
@@ -175,17 +171,14 @@ body {
     padding: 40px;
   
     .instagram{
-        border-style: none;
-        background-color: transparent;
+        @include button-transp;
     }
     
     .linkedin{
-      border-style: none;
-      background-color: transparent;
+        @include button-transp;
     }
     .youtube{
-      border-style: none;
-      background-color: transparent;
+        @include button-transp;
     }
     
 
