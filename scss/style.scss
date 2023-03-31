@@ -22,8 +22,7 @@ body {
 
     .names {
         background-color: $mainbackground;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
 
         .nombre {
             font-size: 4rem;
@@ -46,8 +45,7 @@ body {
         padding-top: 30px;
 
         .styled {
-            border-style: none;
-            background-color: transparent;
+            @include button-transp;
         }
     }
 
