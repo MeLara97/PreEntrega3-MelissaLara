@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- inicio cabecera -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,12 @@
     <title>MY STORY</title>
     <meta name="description" content="Melissa Lara es una fotógrafa, actriz y stunt.
 ¿Te gustaría saber más sobre su historia? ¿Sus inicios? ¿Cuándp descubrió su pasión? Conoce más sobre ella aquí. ">
-   <meta name="keywords"
-       content="stunt, stunt woman,action, action expert,actress,acting, photographer, model, travel, ">
+    <meta name="keywords"
+        content="stunt, stunt woman,action, action expert,actress,acting, photographer, model, travel, ">
     <!-- estilo externo -->
     <link rel="shortcut icon" href="/img/icon_favi.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <!-- cierre cabecera -->
@@ -23,91 +26,113 @@
 <body>
 
     <!-- inicio barra de navegacion -->
-    <div class="grid-container">
-        <div class="box navbar">
-            <nav>
-                <ul>
-                    <!-- navegacion de links  -->
-                    <li class="link1"><a href="../pages/contact.html">CONTACT</a></li>
-                    <li class="link2"><a href="../pages/social.html">SOCIAL</a></li>
-                    <li class="link3"><a href="../pages/my_work.html">MY WORK</a></li>
-                    <li class="link4"><a href="../index.html">HOME</a></li>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <!-- navegacion de links  -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="./my_work.html">MY
+                            WORK</a></li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                            href="../pages/social.html">SOCIAL</a></li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../pages/contact.html">
+                            CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
+    </nav>
+    <!-- cuerpo medio de la pagina -->
+    <div class="box home">
+        <p class="texto">
+            Mi primera vez sujetando una cámara fotográfica mi madre lucía un hermoso vestido rojo, su cabello
+            largo
+            caía sobre su espalda y una sonrisa
+            iluminaba su rostro. Nunca antes había sujetado una cámara,¿Cómo funcionaba el flash? ¿Qué demonios
+            era el
+            ISO? ¿Obturador? Recuerdo ver por el visor,
+            capturar ese momento, su belleza; ahora eterna, su juventud y su sonrisa. Todo era parte de un
+            momento que podría recordar cada vez que sostuviera su foto en mis manos. Para muchos podría ser una
+            historia
+            más ¿Para mí?
+            Fue el inicio de lo que se convertiría en una gran pasión.
+        </p>
 
-        <!-- cuerpo medio de la pagina -->
-        <div class="box home">
-                <p class="texto">
-                    Mi primera vez sujetando una cámara fotográfica mi madre lucía un hermoso vestido rojo, su cabello
-                    largo
-                    caía sobre su espalda y una sonrisa
-                    iluminaba su rostro. Nunca antes había sujetado una cámara,¿Cómo funcionaba el flash? ¿Qué demonios
-                    era el
-                    ISO? ¿Obturador? Recuerdo ver por el visor,
-                    capturar ese momento, su belleza; ahora eterna, su juventud y su sonrisa. Todo era parte de un
-                    momento que podría recordar cada vez que sostuviera su foto en mis manos. Para muchos podría ser una
-                    historia
-                    más ¿Para mí?
-                    Fue el inicio de lo que se convertiría en una gran pasión.
-                </p>
-
-                <div class="image">
-                    <img class="pozas" src="../img/VIAJES/pozas1.jpeg" alt="pozas" style="height: 30vh;">
-                </div>
+        <div class="image">
+            <img class="pozas" src="../img/VIAJES/pozas1.jpeg" alt="pozas" style="height: 30vh;">
         </div>
- <!-- segunda section cuerpo principal de pagina  -->
-        <div class="box stunt">
-            <section>
-                <p class="pktext">
-                    Mi carrera como doble de acción comenzó a desarrollar gracias a que el Parkour llego a mi vida
-                    cuando tenía
-                    14 años. En ese entonces el Parkour no era muy conocido en la Ciudad de México. Tenía poco años de
-                    haberse
-                    desarrollado
-                    la disciplina y correcto, adivinaste.
-                    <br>
-                    <em>¡NO había chicas!</em>
-                    Eso me motivo a querer ser mejor cada día, aprender más, hacer más; ser más.
-                </p>
-
-
-                <div class="parkour">
-                    <img src="../img/PARKOUR/puente_alto.jpeg" alt="high bridge" style="height: 40vh;">
-                </div>
-            </section>
-
-        </div>
-<!-- tercera seccion cuerpo principal de la pagina -->
-        <div class="box actuacion">
-
-            <section>
-                <p class="lorem">
-                   Como parte de mi carrera como doble de acción, comencé a involucrarme en la parte emocional de mi actuación.
-                   Como dobles de acción debes de entender la intención detrás de las acciones de la personas a la cual estas doblando.
-                   Fue ahí cuando me di cuenta de que en realidad, actuar ¡me encantaba! Poder involucrarme mucho más a profundidad y entender
-                   el por qué de mi acción (stunt), poder sentir lo que el personaje estaba sintiendo y ponerme de verdad en esa situación de adrenalina
-                   y de capacidad al responder instintivamente. Me fascinaba el mundo de las emociones actorales, nunca había entendido lo que era sentir,
-                   pensar y actuar como alguien más. La actuación es una profesión muy noble. Es despojarte de tus ideas, de tus memorias, de tu ser.
-                   Todo para dar paso a alguien más, es dejar de habitarte para dejar que te habiten esas vivencias de un nuevo personaje.
-
-                </p>
-                <div class="model">
-                    <img src="../img/ModelBlackDress_closeUp1.jpg" alt="model" style="height:60vh;">
-                </div>
-
-            </section>
-        </div>
-        <!-- pie de pagina -->
-
-        <div class="footer" style="height: 15vh; background:#F16767 ;">
-            <p>
-                La vida debe ser comprendida hacia atrás. Pero debe ser vivida hacia delante. 
-                <br> "Kierkegaard".
-               
+    </div>
+    <!-- segunda section cuerpo principal de pagina  -->
+    <div class="box stunt">
+        <section>
+            <p class="pktext">
+                Mi carrera como doble de acción comenzó a desarrollar gracias a que el Parkour llego a mi vida
+                cuando tenía
+                14 años. En ese entonces el Parkour no era muy conocido en la Ciudad de México. Tenía poco años de
+                haberse
+                desarrollado
+                la disciplina y correcto, adivinaste.
+                <br>
+                <em>¡NO había chicas!</em>
+                Eso me motivo a querer ser mejor cada día, aprender más, hacer más; ser más.
             </p>
-        </div>
 
+
+            <div class="parkour">
+                <img src="../img/PARKOUR/puente_alto.jpeg" alt="high bridge" style="height: 40vh;">
+            </div>
+        </section>
+
+    </div>
+    <!-- tercera seccion cuerpo principal de la pagina -->
+    <div class="box actuacion">
+
+        <section>
+            <p class="lorem">
+                Como parte de mi carrera como doble de acción, comencé a involucrarme en la parte emocional de mi
+                actuación.
+                Como dobles de acción debes de entender la intención detrás de las acciones de la personas a la cual
+                estas doblando.
+                Fue ahí cuando me di cuenta de que en realidad, actuar ¡me encantaba! Poder involucrarme mucho más a
+                profundidad y entender
+                el por qué de mi acción (stunt), poder sentir lo que el personaje estaba sintiendo y ponerme de verdad
+                en esa situación de adrenalina
+                y de capacidad al responder instintivamente. Me fascinaba el mundo de las emociones actorales, nunca
+                había entendido lo que era sentir,
+                pensar y actuar como alguien más. La actuación es una profesión muy noble. Es despojarte de tus ideas,
+                de tus memorias, de tu ser.
+                Todo para dar paso a alguien más, es dejar de habitarte para dejar que te habiten esas vivencias de un
+                nuevo personaje.
+
+            </p>
+            <div class="model">
+                <img src="../img/ModelBlackDress_closeUp1.jpg" alt="model" style="height:60vh;">
+            </div>
+
+        </section>
+    </div>
+
+    <!-- pie de pagina -->
+
+    <div class="footer" style="height:auto; background:#F16767 ;">
+        <p>
+            La vida debe ser comprendida hacia atrás. Pero debe ser vivida hacia delante.
+            <br> "Kierkegaard".
+
+        </p>
+    </div>
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
 <!-- FIN -->
