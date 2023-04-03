@@ -108,8 +108,6 @@ body {
 
 .home {
     background-color: $mainbackground;
-    
-
 
     .texto {
         font-size: 1rem;
@@ -173,48 +171,47 @@ body {
     }
 }
 
-// inicio pagina my work
 
 // inicio pagina social html
-.principal {
-    display: grid;
-    grid-template-rows: auto auto;
 
-    .texto {
-        background-color: $mainbackground;
-        margin: 0px;
-        font-size: 2rem;
-        padding: 30px;
-        text-align: center;
-    }
+.texto {
+    background-color: $mainbackground;
+    margin: 0px;
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center;
+}
 
-    .pendiente {
-        background-color: $mainbackground;
-        font-size: 1rem;
-        padding: 30px;
-        margin: 0px;
-        text-align: center;
-
-    }
-
-    .enlace {
-        font-size: .8rem;
-        text-decoration: none;
-        color: blueviolet;
-    }
-
+.pendiente {
+    background-color: $mainbackground;
+    font-size: 1rem;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
 
 }
 
+.enlace {
+    font-size: .8rem;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+
 .buttons {
     background-color: $mainbackground;
-    display: grid;
-    grid-template-columns: 35% 35% 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 40px;
 
     .instagram {
         @include button-transp;
         transition: all 1s;
+        height: 150px;
+        width: 250px;
     }
 
     & .instagram:hover {
@@ -224,7 +221,10 @@ body {
     .linkedin {
         @include button-transp;
         transition: all 1s;
+        height: 200px;
+        width: 250px;
     }
+
 
     & .linkedin:hover {
         scale: (1.2);
@@ -233,7 +233,10 @@ body {
     .youtube {
         @include button-transp;
         transition: all 1s;
+        height: 250px;
+        width: 250px;
     }
+
 
     & .youtube:hover {
         scale: (1.3);
@@ -241,4 +244,5 @@ body {
 }
 
 
-@import "footer";
+
+    @import "footer";
