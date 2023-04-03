@@ -14,13 +14,14 @@ body {
 // navbar bootsrap my work, social y contact.html
 .navbar-nav .nav-item:hover {
     background-color: #F7F5EB;
-    
+
 }
 
 // pagina principal html
 
 .grid-container {
     display: grid;
+
 
     .box {
         border: 1px solid $mainbackground;
@@ -31,17 +32,20 @@ body {
         background-color: $mainbackground;
         @include flex-center;
 
+
         .nombre {
             font-size: 4rem;
             font-weight: bold;
             color: black;
             margin: 1px;
+
         }
 
         .profesion {
             font-size: 1rem;
             color: rgb(72, 72, 72);
             margin: 10px;
+
         }
     }
 
@@ -49,7 +53,7 @@ body {
         background-color: $mainbackground;
         display: grid;
         grid-template-columns: 40% 60%;
-        padding-top: 30px;
+        padding-top: 40px;
 
         .styled {
             @include button-transp;
@@ -59,32 +63,36 @@ body {
         & .styled:hover {
             scale: (1.2);
         }
-    }
 
-    .textbegin {
 
-        .big {
-            font-size: 6rem;
-            margin: 1px;
-            padding-top: 50px;
-            transition: all .8s;
+        .textbegin {
+
+            .big {
+                font-size: 6rem;
+                margin: 1px;
+                padding-top: 50px;
+                transition: all .8s;
+
+            }
         }
 
         & .big:hover {
             scale: (1.2);
         }
-    }
 
-    .small {
-        font-size: 3rem;
-        margin: 1px;
-        transition: all .8s;
-    }
 
-    & .small:hover {
-        scale: (1.2);
+        .small {
+            font-size: 3rem;
+            margin: 1px;
+            transition: all .8s;
+        }
+
+        & .small:hover {
+            scale: (1.2);
+        }
     }
 }
+
 
 .main {
     background-color: $mainbackground;
@@ -117,17 +125,18 @@ body {
     .image {
         margin: 1px;
         @include flex-center;
-        transition: all 0.8s ;
+        transition: all 0.8s;
     }
 
     & .image:hover {
         scale: (2);
-    
+
     }
 }
 
 .stunt {
     background-color: $mainbackground;
+
     .pktext {
         font-size: 1rem;
         color: black;
@@ -144,6 +153,7 @@ body {
         scale: (1.5);
     }
 }
+
 .actuacion {
     background-color: $mainbackground;
 
@@ -171,7 +181,7 @@ body {
 // inicio pagina social html
 .principal {
     display: grid;
-    grid-template-rows: auto 60vh;
+    grid-template-rows: auto auto;
 
     .texto {
         background-color: $mainbackground;
@@ -209,20 +219,25 @@ body {
         @include button-transp;
         transition: all 1s;
     }
+
     & .instagram:hover {
         scale: (1.2);
     }
+
     .linkedin {
         @include button-transp;
         transition: all 1s;
     }
+
     & .linkedin:hover {
         scale: (1.2);
     }
+
     .youtube {
         @include button-transp;
         transition: all 1s;
     }
+
     & .youtube:hover {
         scale: (1.3);
     }
