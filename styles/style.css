@@ -22,55 +22,56 @@ body {
 .navbar-nav .nav-item:hover {
   background-color: #F7F5EB; }
 
-.grid-container {
-  display: grid; }
-  .grid-container .box {
-    border: 1px solid #F5EAEA;
-    padding: 0px; }
-  .grid-container .names {
-    background-color: #F5EAEA;
-    display: flex;
-    justify-content: center; }
-    .grid-container .names .nombre {
-      font-size: 4rem;
-      font-weight: bold;
-      color: black;
-      margin: 1px; }
-    .grid-container .names .profesion {
-      font-size: 1rem;
-      color: #484848;
-      margin: 10px; }
-  .grid-container .intro {
-    background-color: #F5EAEA;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    padding-top: 40px; }
-    .grid-container .intro .styled {
-      border-style: none;
-      background-color: transparent;
-      transition: all .8s; }
-    .grid-container .intro .styled:hover {
-      scale: 1.2; }
-    .grid-container .intro .textbegin .big {
-      font-size: 6rem;
-      margin: 1px;
-      padding-top: 50px;
-      transition: all .8s; }
-    .grid-container .intro .big:hover {
-      scale: 1.2; }
-    .grid-container .intro .small {
-      font-size: 3rem;
-      margin: 1px;
-      transition: all .8s; }
-    .grid-container .intro .small:hover {
-      scale: 1.2; }
+.box {
+  border: 1px solid #F5EAEA;
+  padding: 0px; }
+
+.names {
+  background-color: #F5EAEA;
+  display: flex;
+  justify-content: center; }
+  .names .nombre {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    margin: 1px; }
+  .names .profesion {
+    font-size: 1rem;
+    color: #484848;
+    margin: 10px; }
+
+.intro {
+  background-color: #F5EAEA;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 40px; }
+  .intro .styled {
+    border-style: none;
+    background-color: transparent;
+    transition: all .8s; }
+  .intro .styled:hover {
+    scale: 1.2; }
+  .intro .textbegin .big {
+    font-size: 6rem;
+    margin: 1px;
+    padding-top: 50px;
+    transition: all .8s; }
+  .intro .big:hover {
+    scale: 1.2; }
+  .intro .small {
+    font-size: 3rem;
+    margin: 1px;
+    transition: all .8s; }
+  .intro .small:hover {
+    scale: 1.2; }
 
 .main {
   background-color: #F5EAEA; }
   .main .texto {
     font-size: 1.5rem;
     padding: 20%;
-    padding-top: 10%;
+    padding-top: 5%;
     font-weight: lighter;
     text-align: center; }
 

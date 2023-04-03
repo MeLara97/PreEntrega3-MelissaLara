@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!-- Ayuda a SEO -->
+    <!-- Ayuda a SEO -->
     <title>PreEntrega3+MelissaLara </title>
     <meta name="description" content="Melissa Lara es una fotógrafa, actriz y stunt.
      Me dedico a crear expericias, memorias inolvidables y vivir la vida al límite. ">
@@ -17,6 +17,8 @@
         content="stunt, stunt woman,action, action expert,actress,acting, photography,wedding photopgrapher, ">
     <!-- estilo externo -->
     <link rel="shortcut icon" href="img/icon_favi.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
 
 
@@ -25,84 +27,99 @@
 
 <body>
     <!-- inicio barra de navegacion -->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <!-- navegacion de links  -->
 
-    <div class="grid-container">
-        <div class="container box navbar">
-            <nav>
-                <ul>
-                    <!-- navegacion de links  -->
-                    <li class="nav_link1"><a href="./pages/contact.html">CONTACT</a></li>
-                    <li class="nav_link2"><a href="./pages/social.html">SOCIAL</a></li>
-                    <li class="nav_link3"><a href="./pages/my_work.html">MY WORK</a></li>
-                    <li class="nav_link4"> <a href="./pages/my_story.html">MY STORY</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <!-- cabecera o cuerpo inicial de la pagina-->
-
-        <div class="box names">
-            <section>
-                <h1 class="names nombre"> MELISSA LARA </h1>
-                <h2 class="nombre profesion">Photographer/Stunt/Actress.</h2>
-            </section>
-        </div>
-
-        <div class="box intro">
-            <button class="styled" type="button"> <a href="./pages/my_story.html"><img class="index-img"
-                        src="img/home2_circle.jpg" alt="Photographer" style="border-radius: 1000px;" height="320px"
-                        width="320px"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
             </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                            href="../pages/my_story.html">MY
+                            STORY</a></li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                            href="../pages/social.html">SOCIAL</a></li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../pages/contact.html">
+                            CONTACT</a></li>
 
-            <div class="textbegin">
-                <h1 class="begin big">
-                    ¡Hola!</h1>
-                <br>
-                <h2 class="begin small"> Un poco acerca de mi:</h2>
+                </ul>
             </div>
         </div>
-        <!-- texto / cuerpo  principal  -->
-        <div class="box main">
-            <p class="main texto">
-                Mi nombre es Melissa, nací en la Ciudad de México, me gusta la música; melómana de corazón, amo las
-                bellas artes,
-                los tacos y todo lo que implique adrenalina.
-                <br>
-                <br>
-                Mi vida ha sido una colección de experiencias inolvidables, llena de caídas de altura,
-                escenas de pelea, moretones, caídas; nadar en mar abierto,
-                hacer sesiones de fotos para amigos, modelos, restaurantes y <em>¿Por qué no?</em> A mi misma.
-                <br>
-                <br>
-                La fotografía es mi amante perfecto, me permite capturar la esencia de las personas sin que se den
-                cuenta, hacerlxs sentir más seguros.
-                Puedo recordar lugares, personas, todos en un
-                instante que durará para siempre...
-                <br>
-                <em> ¿Otra forma de ser eterno?</em>
-                <br>
-                <br>
-                La adrenalina de doble de acción me lleva a mis límites, recordándome a vivir cada segundo como si
-                fuera el
-                último. Me recuerda lo que es estar viva. Sonreír, decir "Te amo", saber cuándo pedir perdón
-                y también reconocer cuando me debo ir.
-                <br>
-                <br>
-                La actuación es mi fantasía.La actuación te permite desprenderte de tus creencias, tus juicios, tus
-                memorias y experiencias.
-                Es dejar de lado tu ser.
-            </p>
+    </nav>
+    <!-- cabecera o cuerpo inicial de la pagina-->
 
-            <br>
-        </div>
-        <!-- pie de pagina -->
-        <div class="footer" style="height: 10vh; background:#F16767 ;">
-            <p clas>
-                Creating experiences since 2020.
-            </p>
-        </div>
+    <div class="box names">
+        <section>
+            <h1 class="names nombre"> MELISSA LARA </h1>
+            <h2 class="nombre profesion">Photographer/Stunt/Actress.</h2>
+        </section>
     </div>
 
+    <div class="box intro">
+        <button class="styled" type="button"> <a href="./pages/my_story.html"><img src="img/home2_circle.jpg"
+            class="img-fluid" alt="responsive image" style="border-radius: 1000px;" height="320px"
+                    width="320px"> </a>
+        </button>
+
+        <div class="textbegin">
+            <h1 class="begin big">
+                ¡Hola!</h1>
+            <br>
+            <h2 class="begin small"> Un poco acerca de mi:</h2>
+        </div>
+    </div>
+    <!-- texto / cuerpo  principal  -->
+    <div class="box main">
+        <p class="main texto">
+            Mi nombre es Melissa, nací en la Ciudad de México, me gusta la música; melómana de corazón, amo las
+            bellas artes,
+            los tacos y todo lo que implique adrenalina.
+            <br>
+            <br>
+            Mi vida ha sido una colección de experiencias inolvidables, llena de caídas de altura,
+            escenas de pelea, moretones, caídas; nadar en mar abierto,
+            hacer sesiones de fotos para amigos, modelos, restaurantes y <em>¿Por qué no?</em> A mi misma.
+            <br>
+            <br>
+            La fotografía es mi amante perfecto, me permite capturar la esencia de las personas sin que se den
+            cuenta, hacerlxs sentir más seguros.
+            Puedo recordar lugares, personas, todos en un
+            instante que durará para siempre...
+            <br>
+            <em> ¿Otra forma de ser eterno?</em>
+            <br>
+            <br>
+            La adrenalina de doble de acción me lleva a mis límites, recordándome a vivir cada segundo como si
+            fuera el
+            último. Me recuerda lo que es estar viva. Sonreír, decir "Te amo", saber cuándo pedir perdón
+            y también reconocer cuando me debo ir.
+            <br>
+            <br>
+            La actuación es mi fantasía.La actuación te permite desprenderte de tus creencias, tus juicios, tus
+            memorias y experiencias.
+            Es dejar de lado tu ser.
+        </p>
+
+        <br>
+    </div>
+    <!-- pie de pagina -->
+    <div class="footer" style="height: 10vh; background:#F16767 ;">
+        <p clas>
+            Creating experiences since 2020.
+        </p>
+    </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
